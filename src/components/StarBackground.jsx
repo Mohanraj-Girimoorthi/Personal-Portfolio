@@ -34,7 +34,7 @@ export const StarBackground = () => {
         x: Math.random() * 100,
         y: Math.random() * 100,
         opacity: Math.random() * 0.5 + 0.5,
-        animationDuration: Math.random() * 4 + 2,
+        animationDuration: Math.random() * 3 + 2,
       });
     }
 
@@ -93,3 +93,4 @@ export const StarBackground = () => {
     </div>
   );
 };
+

@@ -3,22 +3,22 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "User Manual Dashboard",
+    description: "Interactive analytics dashboard with data visualization and filtering capabilities.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React.js"],
+    demoUrl: "https://user-panel-mohan.vercel.app/",
+    githubUrl: "https://github.com/Mohanraj-Girimoorthi"
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Connect Event Landing app",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "A beautiful landing page web application using React.js , Tailwind and External libraries                      ",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React.js", "Freelance"],
+    demoUrl: "https://www.connectevents.in/",
+    githubUrl: "https://github.com/Mohanraj-Girimoorthi"
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const projects = [
     image: "/projects/project3.png",
     tags: ["React", "Node.js", "Stripe"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Mohanraj-Girimoorthi"
   },
 ];
 
@@ -73,7 +73,7 @@ export const ProjectsSection = () => {
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-end">
                   <div className="flex space-x-3">
                     <a
                       href={project.demoUrl}
@@ -96,11 +96,11 @@ export const ProjectsSection = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        <div className="text-center mt-12 ">
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Mohanraj-Girimoorthi"
           >
             Check My Github <ArrowRight size={16} />
           </a>
