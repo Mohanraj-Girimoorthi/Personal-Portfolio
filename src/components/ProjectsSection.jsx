@@ -22,12 +22,12 @@ const projects = [
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Art & Architecture Landing",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "A heritage-themed landing page featuring sculpture visuals, ceiling art, and traditional patterns.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
+    tags: ["React js", "Freelance"],
+    demoUrl: "https://www.arunsirpi.com/",
     githubUrl: "https://github.com/Mohanraj-Girimoorthi"
   },
 ];
